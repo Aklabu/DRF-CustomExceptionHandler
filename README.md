@@ -9,7 +9,9 @@ REST_FRAMEWORK = {
 
 ## Why Use This?
 
-### ✅ Simpler frontend & mobile logic
+### ✅ With this structure
+
+- Simpler frontend & mobile logic
 ```javascript
 if (response.success) {
   use(response.data);
@@ -17,7 +19,6 @@ if (response.success) {
   showError(response.message);
 }
 ```
-
 - One reusable response handler
 - No special cases
 - Fewer bugs
